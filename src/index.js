@@ -10,14 +10,7 @@ import { getStorage } from "firebase/storage";
 import './index.css';
 import App from './App';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA0HBtnJzshbkiZXhFrBpaTO9q_U5kz-n0",
-  authDomain: "bytterapp.firebaseapp.com",
-  projectId: "bytterapp",
-  storageBucket: "bytterapp.appspot.com",
-  messagingSenderId: "134938456952",
-  appId: "1:134938456952:web:1528ed756f8efc7f79ce8d"
-};
+
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
